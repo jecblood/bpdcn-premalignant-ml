@@ -1,0 +1,13 @@
+sample,healthy,premalignant,malignant,other,total_cells
+GSE227690_Pt12Rel_metadata.tsv.gz,0,0,1190,4125,5315
+GSE227690_Pt5Dx_metadata.tsv.gz,0,39,0,4106,4145
+GSE227690_Pt1Dx_metadata.tsv.gz,0,0,132,2341,2473
+GSE227690_Pt1Rem_metadata.tsv.gz,0,15,0,10297,10312
+GSE227690_Pt16Dx_metadata.tsv.gz,0,0,4117,335,4452
+GSE227690_Pt9Dx_metadata.tsv.gz,0,136,2,4455,4593
+GSE227690_Pt12Dx_metadata.tsv.gz,0,265,2,6595,6862
+GSE227690_Pt14Dx_metadata.tsv.gz,0,0,1161,6213,7374
+GSE227690_BM_metadata.tsv.gz,203,0,0,20208,20411
+GSE227690_Pt15Dx_metadata.tsv.gz,0,0,3057,413,3470
+GSE227690_Pt10Rel_metadata.tsv.gz,0,0,4552,2946,7498
+GSE227690_Pt10Dx_metadata.tsv.gz,0,40,19,10047,10106
