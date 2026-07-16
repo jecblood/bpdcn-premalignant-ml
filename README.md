@@ -1,4 +1,6 @@
 Explainable Machine Learning Identifies Transcriptional Features of Premalignant and Malignant pDCs in BPDCN
+<img width="2285" height="2819" alt="shap_summary" src="https://github.com/user-attachments/assets/ccad4512-1e7a-4b3b-acf7-2991d0722c03" />
+
 Overview
 Blastic plasmacytoid dendritic cell neoplasm (BPDCN) is a rare and aggressive hematologic malignancy that arises from plasmacytoid dendritic cells (pDCs). Using publicly available single-cell RNA-seq data from Griffin et al. (Nature, 2023), this project applies machine learning and explainable AI to identify transcriptional features associated with malignant transformation.
 Models used:
@@ -21,12 +23,12 @@ GEO: GSE227690
 Griffin GK et al. Ultraviolet radiation shapes dendritic cell leukaemia transformation in the skin. Nature (2023)
 
 Final machine learning dataset:
-Plain Text4,846 cells2,000 highly variable genesShow more lines
+4,846 cells  2,000 highly variable genes
 Cell populations analyzed:
-Plain TextPremalignant pDCsMalignant BPDCN cellsShow more lines
+Premalignant pDCs and Malignant BPDCN cells
 
 Workflow
-Plain TextMetadata Processing        ↓pDC Identification        ↓Expression Matrix Construction        ↓Feature Filtering        ↓Random Forest        ↓XGBoost        ↓SHAP Analysis        ↓Gene Expression ValidationShow more lines
+Metadata Processing        ↓pDC Identification        ↓Expression Matrix Construction        ↓Feature Filtering        ↓Random Forest        ↓XGBoost        ↓SHAP Analysis        ↓Gene Expression Validation
 
 Key Findings
 Genes consistently identified across Random Forest, XGBoost, and SHAP analyses:
