@@ -42,7 +42,7 @@ Cell populations analyzed:
 Premalignant pDCs and Malignant BPDCN cells
 
 Workflow
-Metadata Processing        ↓pDC Identification        ↓Expression Matrix Construction        ↓Feature Filtering        ↓Random Forest        ↓XGBoost        ↓SHAP Analysis        ↓Gene Expression Validation
+Metadata Processing        -->pDC Identification        -->Expression Matrix Construction        -->Feature Filtering        -->Random Forest        -->XGBoost        -->SHAP Analysis        -->Gene Expression Validation
 
 Key Findings
 Genes consistently identified across Random Forest, XGBoost, and SHAP analyses:
@@ -76,11 +76,11 @@ SIGLEC6     +2.85
 
 
 Repository Structure
-notebooks/├── 06_build_expression_dataset.ipynb├── 07_feature_filtering.ipynb├── 08_random_forest.ipynb├── 09_xgboost.ipynb└── 11_gene_expression_validation.ipynbfigures/results/Show more lines
+notebooks/├── 06_build_expression_dataset.ipynb├── 07_feature_filtering.ipynb├── 08_random_forest.ipynb├── 09_xgboost.ipynb└── 11_gene_expression_validation.ipynbfigures/results/
 
 Results
 Generated outputs include:
-results/rf_feature_importance.csvxgb_feature_importance.csvshap_importance.csvcandidate_gene_validation.csvShow more lines
+results/rf_feature_importance.csvxgb_feature_importance.csvshap_importance.csvcandidate_gene_validation.csv
 
 Limitations
 
