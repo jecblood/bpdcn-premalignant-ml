@@ -30,9 +30,10 @@ Validate findings against published BPDCN transcriptional signatures
 
 
 Dataset
+GEO: GSE227690
+
 Source
 
-GEO: GSE227690
 Griffin GK et al. Ultraviolet radiation shapes dendritic cell leukaemia transformation in the skin. Nature (2023)
 
 Final machine learning dataset:
@@ -60,139 +61,32 @@ HES6
 IGLL1
 
 Both genes were reported in the original Nature study as components of a BPDCN transcriptional signature.
-Candidate Transformation Markers
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Premalignant-EnrichedMalignant-EnrichedALOX5APPDLIM1ALKBH7HES6IGLL1SIGLEC6
-
-SHAP Feature Importance
-Top genes ranked by SHAP:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-GeneMean Absolute SHAPALOX5AP2.26PDLIM10.83HES60.58ALKBH70.46LAMP50.41SIGLEC60.30
-
-Candidate Gene Validation
 
 Differential expression analysis demonstrated significant expression differences between premalignant and malignant pDCs.
 Example Findings
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-GeneLog2 Fold ChangeALOX5AP-8.63ALKBH7-6.58PDLIM1+6.12HES6+5.70IGLL1+3.35SIGLEC6+2.85
-
-SHAP Summary Plot
+Gene       Log2 Fold Change
+ALOX5AP     -8.63
+ALKBH7      -6.58
+PDLIM1      +6.12
+HES6        +5.70
+IGLL1       +3.35
+SIGLEC6     +2.85
 
 
 Repository Structure
-Plain Textnotebooks/├── 06_build_expression_dataset.ipynb├── 07_feature_filtering.ipynb├── 08_random_forest.ipynb├── 09_xgboost.ipynb└── 11_gene_expression_validation.ipynbfigures/results/Show more lines
+notebooks/├── 06_build_expression_dataset.ipynb├── 07_feature_filtering.ipynb├── 08_random_forest.ipynb├── 09_xgboost.ipynb└── 11_gene_expression_validation.ipynbfigures/results/Show more lines
 
 Results
 Generated outputs include:
-Plain Textresults/rf_feature_importance.csvxgb_feature_importance.csvshap_importance.csvcandidate_gene_validation.csvShow more lines
+results/rf_feature_importance.csvxgb_feature_importance.csvshap_importance.csvcandidate_gene_validation.csvShow more lines
 
 Limitations
 
 Models were trained at the single-cell level.
 Patient-level validation was limited by available count matrices.
 Findings should be interpreted as hypothesis-generating and require additional biological validation.
-
-
-Skills Demonstrated
-
-Single-cell RNA-seq analysis
-Machine learning
-Random Forest
-XGBoost
-Explainable AI (SHAP)
-Statistical testing
-Data visualization
-Reproducible research workflows
-Python (pandas, scikit-learn, XGBoost, SHAP)
-
 
 Citation
 Griffin GK, Booth CAG, Togami K, et al.
