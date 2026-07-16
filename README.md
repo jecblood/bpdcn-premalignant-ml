@@ -4,6 +4,18 @@ Overview
 Blastic plasmacytoid dendritic cell neoplasm (BPDCN) is a rare and aggressive hematologic malignancy that arises from plasmacytoid dendritic cells (pDCs). Using publicly available single-cell RNA-seq data from Griffin et al. (Nature, 2023), this project applies machine learning and explainable AI to identify transcriptional features associated with malignant transformation.
 <img width="2285" height="2819" alt="shap_summary" src="https://github.com/user-attachments/assets/e4ed58e0-bcbd-44ef-b6d4-20526397a966" />
 
+### Interpreting the SHAP Summary Plot
+
+Each point represents a single cell.
+
+Blue points indicate low expression of a gene and red points indicate high expression.
+
+Points positioned to the right increase the probability that a cell is classified as malignant BPDCN, while points positioned to the left increase the probability that a cell is classified as premalignant.
+
+The model identified ALOX5AP and ALKBH7 as features associated with premalignant cells, whereas HES6, PDLIM1, and SIGLEC6 were associated with malignant BPDCN cells.
+
+Notably, HES6 and IGLL1 were independently recovered and were also reported in the original Nature BPDCN transcriptional signature.
+
 Models used:
 
 Random Forest
