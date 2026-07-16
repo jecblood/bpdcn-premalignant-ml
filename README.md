@@ -1,8 +1,9 @@
 Explainable Machine Learning Identifies Transcriptional Features of Premalignant and Malignant pDCs in BPDCN
-<img width="2285" height="2819" alt="shap_summary" src="https://github.com/user-attachments/assets/ccad4512-1e7a-4b3b-acf7-2991d0722c03" />
 
 Overview
 Blastic plasmacytoid dendritic cell neoplasm (BPDCN) is a rare and aggressive hematologic malignancy that arises from plasmacytoid dendritic cells (pDCs). Using publicly available single-cell RNA-seq data from Griffin et al. (Nature, 2023), this project applies machine learning and explainable AI to identify transcriptional features associated with malignant transformation.
+<img width="2285" height="2819" alt="shap_summary" src="https://github.com/user-attachments/assets/e4ed58e0-bcbd-44ef-b6d4-20526397a966" />
+
 Models used:
 
 Random Forest
@@ -38,6 +39,7 @@ ALKBH7
 PDLIM1
 HES6
 SIGLEC6
+<img width="4169" height="2366" alt="candidate_gene_validation_panel" src="https://github.com/user-attachments/assets/0f9014a4-a115-4f24-9ee7-488f4e9ffa6d" />
 
 Recovery of Published BPDCN Markers
 The workflow independently recovered:
